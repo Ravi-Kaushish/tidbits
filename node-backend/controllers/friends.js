@@ -20,8 +20,9 @@ exports.GetFriends = async (req, res) => {
 
 exports.GetFriendsOfFriends = async (req, res) => {
   try {
-    //Userid must be picked up from jwt or cookies using a middleware, currently picking from query params for demo purposes
+    //Userid must be picked up from jwt or cookies using a middleware, currently picking from query params just for demo purposes
     user_id = req.query.userid;
+    //Userid must be picked up from jwt or cookies using a middleware, currently picking from query params just for demo purposes
     [user_details, metadata] = await ExecuteQuery(await GetFriendsOfFriendsQuery(user_id));
     res.send(user_details);
   }
