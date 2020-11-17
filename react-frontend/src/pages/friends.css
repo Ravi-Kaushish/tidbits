@@ -1,0 +1,19 @@
+body, .PagesMainContainer{
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding:0px;
+}
+
+.Product-Page-Wrapper{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+height: auto;
+}
+
+.ProductPageRibbon{
+  background-color: aqua;
+  z-index: -1;
+}

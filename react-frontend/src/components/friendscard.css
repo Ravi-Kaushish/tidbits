@@ -1,0 +1,47 @@
+.ProductCardMainContainer {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.ProductCardContainer {
+    width: 100%;
+    height: 100px;
+    margin-top: 20px;
+    background-color: black;
+    color: #ee3a43;
+}
+
+.pp-pc-header {
+    background-color: #ee3a43;
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    font-size: 120%;
+}
+
+.pc-headeritem {
+    padding: auto;
+    margin: auto;
+    font-weight: bold;
+    overflow-wrap: break-word;
+    /* border: 5px solid black; */
+}
+
+.pp-pc-body {
+    width: 100%;
+    height: 33%;
+    display: flex;
+    flex-direction: row;
+    color: #ee3a43;
+    
+}
+
+.pc-bodyitem {
+    padding-top: 1rem;
+    margin: auto;
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
